@@ -1,0 +1,2486 @@
+{
+  "generatedAt": "2026-04-27T13:56:57Z",
+  "count": 310,
+  "items": {
+    "2021000128930": {
+      "display": "2021000128930",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-19T14:13:02",
+      "controlDateText": "19/12/2025 14:13:02",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20220014082": {
+      "display": "20220014082",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-19T14:14:52",
+      "controlDateText": "19/12/2025 14:14:52",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137962": {
+      "display": "202100137962",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-19T15:54:48",
+      "controlDateText": "19/12/2025 15:54:48",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100133330": {
+      "display": "202100133330",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T15:48:44",
+      "controlDateText": "22/12/2025 15:48:44",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137560": {
+      "display": "202100137560",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:08:52",
+      "controlDateText": "22/12/2025 16:08:52",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001422": {
+      "display": "202200001422",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:10:21",
+      "controlDateText": "22/12/2025 16:10:21",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135645": {
+      "display": "202100135645",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:11:15",
+      "controlDateText": "22/12/2025 16:11:15",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003172": {
+      "display": "202300003172",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:12:08",
+      "controlDateText": "22/12/2025 16:12:08",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137512": {
+      "display": "202100137512",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:15:08",
+      "controlDateText": "22/12/2025 16:15:08",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132134": {
+      "display": "202100132134",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:18:09",
+      "controlDateText": "22/12/2025 16:18:09",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004506": {
+      "display": "202300004506",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:18:56",
+      "controlDateText": "22/12/2025 16:18:56",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004508": {
+      "display": "202300004508",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:24:23",
+      "controlDateText": "22/12/2025 16:24:23",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001417": {
+      "display": "202200001417",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:26:16",
+      "controlDateText": "22/12/2025 16:26:16",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004491": {
+      "display": "202300004491",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:27:04",
+      "controlDateText": "22/12/2025 16:27:04",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001664": {
+      "display": "202200001664",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:27:58",
+      "controlDateText": "22/12/2025 16:27:58",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004832": {
+      "display": "202300004832",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:28:39",
+      "controlDateText": "22/12/2025 16:28:39",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001652": {
+      "display": "202200001652",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:29:23",
+      "controlDateText": "22/12/2025 16:29:23",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001655": {
+      "display": "202200001655",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:30:17",
+      "controlDateText": "22/12/2025 16:30:17",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001984": {
+      "display": "202200001984",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:30:29",
+      "controlDateText": "23/04/2026 17:30:29",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132119": {
+      "display": "202100132119",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:31:50",
+      "controlDateText": "22/12/2025 16:31:50",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202500000905": {
+      "display": "202500000905",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:32:48",
+      "controlDateText": "22/12/2025 16:32:48",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202500000907": {
+      "display": "202500000907",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:33:42",
+      "controlDateText": "22/12/2025 16:33:42",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2022000142177": {
+      "display": "2022000142177",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:34:35",
+      "controlDateText": "22/12/2025 16:34:35",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137758": {
+      "display": "202100137758",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:37:09",
+      "controlDateText": "05/01/2026 14:37:09",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001839": {
+      "display": "202200001839",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:34:31",
+      "controlDateText": "23/04/2026 17:34:31",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001435": {
+      "display": "202200001435",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:38:36",
+      "controlDateText": "05/01/2026 14:38:36",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202500000906": {
+      "display": "202500000906",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:39:21",
+      "controlDateText": "05/01/2026 14:39:21",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100136310": {
+      "display": "202100136310",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:39:58",
+      "controlDateText": "05/01/2026 14:39:58",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001415": {
+      "display": "202200001415",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:40:40",
+      "controlDateText": "05/01/2026 14:40:40",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135621": {
+      "display": "202100135621",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:41:22",
+      "controlDateText": "05/01/2026 14:41:22",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001985": {
+      "display": "202200001985",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:41:59",
+      "controlDateText": "05/01/2026 14:41:59",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132120": {
+      "display": "202100132120",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:42:45",
+      "controlDateText": "05/01/2026 14:42:45",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004494": {
+      "display": "202300004494",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:43:20",
+      "controlDateText": "05/01/2026 14:43:20",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003047": {
+      "display": "202300003047",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-09T14:56:16",
+      "controlDateText": "09/01/2026 14:56:16",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200142082": {
+      "display": "202200142082",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-09T15:00:04",
+      "controlDateText": "09/01/2026 15:00:04",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100138101": {
+      "display": "202100138101",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:26:43",
+      "controlDateText": "23/04/2026 17:26:43",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003042": {
+      "display": "202300003042",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T10:59:53",
+      "controlDateText": "12/01/2026 10:59:53",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100133342": {
+      "display": "202100133342",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T11:27:11",
+      "controlDateText": "12/01/2026 11:27:11",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001810": {
+      "display": "202200001810",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T12:23:54",
+      "controlDateText": "12/01/2026 12:23:54",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20210013345": {
+      "display": "20210013345",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T12:33:44",
+      "controlDateText": "12/01/2026 12:33:44",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2021000127751": {
+      "display": "2021000127751",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T13:43:26",
+      "controlDateText": "12/01/2026 13:43:26",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004495": {
+      "display": "202300004495",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T13:44:15",
+      "controlDateText": "12/01/2026 13:44:15",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2023000004587": {
+      "display": "2023000004587",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T13:44:55",
+      "controlDateText": "12/01/2026 13:44:55",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004141": {
+      "display": "202300004141",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T13:46:47",
+      "controlDateText": "12/01/2026 13:46:47",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137527": {
+      "display": "202100137527",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T14:08:30",
+      "controlDateText": "12/01/2026 14:08:30",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100129753": {
+      "display": "202100129753",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T14:42:01",
+      "controlDateText": "12/01/2026 14:42:01",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2019000061948": {
+      "display": "2019000061948",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T14:43:03",
+      "controlDateText": "12/01/2026 14:43:03",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004499": {
+      "display": "202300004499",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:32:39",
+      "controlDateText": "23/04/2026 17:32:39",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004509": {
+      "display": "202300004509",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T14:59:55",
+      "controlDateText": "12/01/2026 14:59:55",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001412": {
+      "display": "202200001412",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T15:43:16",
+      "controlDateText": "12/01/2026 15:43:16",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137586": {
+      "display": "202100137586",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-13T12:12:39",
+      "controlDateText": "13/01/2026 12:12:39",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001995": {
+      "display": "202200001995",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T10:24:04",
+      "controlDateText": "14/01/2026 10:24:04",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137516": {
+      "display": "202100137516",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T11:46:31",
+      "controlDateText": "14/01/2026 11:46:31",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004608": {
+      "display": "202300004608",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T11:48:16",
+      "controlDateText": "14/01/2026 11:48:16",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137756": {
+      "display": "202100137756",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T11:49:48",
+      "controlDateText": "14/01/2026 11:49:48",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100138080": {
+      "display": "202100138080",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T13:48:43",
+      "controlDateText": "14/01/2026 13:48:43",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001837": {
+      "display": "202200001837",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-21T11:03:17",
+      "controlDateText": "21/01/2026 11:03:17",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001573": {
+      "display": "202200001573",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-21T11:05:56",
+      "controlDateText": "21/01/2026 11:05:56",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001444": {
+      "display": "202200001444",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T08:36:37",
+      "controlDateText": "22/01/2026 08:36:37",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001851": {
+      "display": "202200001851",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T08:38:43",
+      "controlDateText": "22/01/2026 08:38:43",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001447": {
+      "display": "202200001447",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T08:39:46",
+      "controlDateText": "22/01/2026 08:39:46",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004496": {
+      "display": "202300004496",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T08:54:09",
+      "controlDateText": "22/01/2026 08:54:09",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131986": {
+      "display": "202100131986",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T09:15:42",
+      "controlDateText": "22/01/2026 09:15:42",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2019000077837": {
+      "display": "2019000077837",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-26T12:08:43",
+      "controlDateText": "26/01/2026 12:08:43",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001999": {
+      "display": "202200001999",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:20:45",
+      "controlDateText": "28/01/2026 09:20:45",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137387": {
+      "display": "202100137387",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:21:36",
+      "controlDateText": "28/01/2026 09:21:36",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001824": {
+      "display": "202200001824",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:22:27",
+      "controlDateText": "28/01/2026 09:22:27",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001821": {
+      "display": "202200001821",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:23:41",
+      "controlDateText": "28/01/2026 09:23:41",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004612": {
+      "display": "202300004612",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:24:50",
+      "controlDateText": "28/01/2026 09:24:50",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004589": {
+      "display": "202300004589",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:25:50",
+      "controlDateText": "28/01/2026 09:25:50",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131300": {
+      "display": "202100131300",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:26:51",
+      "controlDateText": "28/01/2026 09:26:51",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001433": {
+      "display": "202200001433",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:27:50",
+      "controlDateText": "28/01/2026 09:27:50",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2022000142172": {
+      "display": "2022000142172",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:28:43",
+      "controlDateText": "28/01/2026 09:28:43",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137777": {
+      "display": "202100137777",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:29:40",
+      "controlDateText": "28/01/2026 09:29:40",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001423": {
+      "display": "202200001423",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:30:47",
+      "controlDateText": "28/01/2026 09:30:47",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137392": {
+      "display": "202100137392",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:31:24",
+      "controlDateText": "28/01/2026 09:31:24",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100129758": {
+      "display": "202100129758",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:31:59",
+      "controlDateText": "28/01/2026 09:31:59",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100129830": {
+      "display": "202100129830",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:32:39",
+      "controlDateText": "28/01/2026 09:32:39",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2021001129741": {
+      "display": "2021001129741",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:33:15",
+      "controlDateText": "28/01/2026 09:33:15",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100134328": {
+      "display": "202100134328",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-29T14:12:33",
+      "controlDateText": "29/01/2026 14:12:33",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135948": {
+      "display": "202100135948",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-29T14:14:16",
+      "controlDateText": "29/01/2026 14:14:16",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131575": {
+      "display": "202100131575",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T11:12:41",
+      "controlDateText": "30/01/2026 11:12:41",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004603": {
+      "display": "202300004603",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T12:23:42",
+      "controlDateText": "30/01/2026 12:23:42",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137497": {
+      "display": "202100137497",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:52:16",
+      "controlDateText": "30/01/2026 14:52:16",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001689": {
+      "display": "202200001689",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:53:51",
+      "controlDateText": "30/01/2026 14:53:51",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2021000128913": {
+      "display": "2021000128913",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:54:43",
+      "controlDateText": "30/01/2026 14:54:43",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004492": {
+      "display": "202300004492",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:55:36",
+      "controlDateText": "30/01/2026 14:55:36",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001671": {
+      "display": "202200001671",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:56:24",
+      "controlDateText": "30/01/2026 14:56:24",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131574": {
+      "display": "202100131574",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:57:18",
+      "controlDateText": "30/01/2026 14:57:18",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001695": {
+      "display": "202200001695",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:31:37",
+      "controlDateText": "23/04/2026 17:31:37",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004590": {
+      "display": "202300004590",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:59:12",
+      "controlDateText": "30/01/2026 14:59:12",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001659": {
+      "display": "202200001659",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:59:58",
+      "controlDateText": "30/01/2026 14:59:58",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003168": {
+      "display": "202300003168",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T15:00:39",
+      "controlDateText": "30/01/2026 15:00:39",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001843": {
+      "display": "202200001843",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:33:05",
+      "controlDateText": "23/04/2026 17:33:05",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135927": {
+      "display": "202100135927",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:34:03",
+      "controlDateText": "23/04/2026 17:34:03",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2019000077845": {
+      "display": "2019000077845",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-02T14:04:36",
+      "controlDateText": "02/02/2026 14:04:36",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131979": {
+      "display": "202100131979",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T15:50:32",
+      "controlDateText": "06/02/2026 15:50:32",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20211318": {
+      "display": "20211318",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:03:34",
+      "controlDateText": "06/02/2026 16:03:34",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131566": {
+      "display": "202100131566",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:04:12",
+      "controlDateText": "06/02/2026 16:04:12",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004505": {
+      "display": "202300004505",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:05:18",
+      "controlDateText": "06/02/2026 16:05:18",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135518": {
+      "display": "202100135518",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:05:50",
+      "controlDateText": "06/02/2026 16:05:50",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137518": {
+      "display": "202100137518",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:06:23",
+      "controlDateText": "06/02/2026 16:06:23",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137776": {
+      "display": "202100137776",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:07:07",
+      "controlDateText": "06/02/2026 16:07:07",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001419": {
+      "display": "202200001419",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:07:44",
+      "controlDateText": "06/02/2026 16:07:44",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137788": {
+      "display": "202100137788",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:08:20",
+      "controlDateText": "06/02/2026 16:08:20",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004504": {
+      "display": "202300004504",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T10:59:10",
+      "controlDateText": "09/02/2026 10:59:10",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137571": {
+      "display": "202100137571",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:00:40",
+      "controlDateText": "09/02/2026 11:00:40",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001683": {
+      "display": "202200001683",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:01:23",
+      "controlDateText": "09/02/2026 11:01:23",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001430": {
+      "display": "202200001430",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:01:54",
+      "controlDateText": "09/02/2026 11:01:54",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004500": {
+      "display": "202300004500",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:02:30",
+      "controlDateText": "09/02/2026 11:02:30",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100138078": {
+      "display": "202100138078",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:03:00",
+      "controlDateText": "09/02/2026 11:03:00",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137584": {
+      "display": "202100137584",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:06:00",
+      "controlDateText": "09/02/2026 11:06:00",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132270": {
+      "display": "202100132270",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:27:21",
+      "controlDateText": "23/04/2026 17:27:21",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001693": {
+      "display": "202200001693",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:07:17",
+      "controlDateText": "09/02/2026 11:07:17",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2019000078547": {
+      "display": "2019000078547",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:07:52",
+      "controlDateText": "09/02/2026 11:07:52",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003985": {
+      "display": "202300003985",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:15:28",
+      "controlDateText": "09/02/2026 11:15:28",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200142177": {
+      "display": "202200142177",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-17T10:29:39",
+      "controlDateText": "17/02/2026 10:29:39",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100129754": {
+      "display": "202100129754",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:37:25",
+      "controlDateText": "09/03/2026 15:37:25",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003043": {
+      "display": "202300003043",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:38:11",
+      "controlDateText": "09/03/2026 15:38:11",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202400015697": {
+      "display": "202400015697",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:38:55",
+      "controlDateText": "09/03/2026 15:38:55",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001832": {
+      "display": "202200001832",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:39:32",
+      "controlDateText": "09/03/2026 15:39:32",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132125": {
+      "display": "202100132125",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:40:03",
+      "controlDateText": "09/03/2026 15:40:03",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300005305": {
+      "display": "202300005305",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:40:40",
+      "controlDateText": "09/03/2026 15:40:40",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001816": {
+      "display": "202200001816",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:41:21",
+      "controlDateText": "09/03/2026 15:41:21",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200142171": {
+      "display": "202200142171",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-23T14:47:00",
+      "controlDateText": "23/03/2026 14:47:00",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001685": {
+      "display": "202200001685",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-23T14:47:32",
+      "controlDateText": "23/03/2026 14:47:32",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004588": {
+      "display": "202300004588",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-15T11:24:19",
+      "controlDateText": "15/04/2026 11:24:19",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001431": {
+      "display": "202200001431",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-15T11:24:52",
+      "controlDateText": "15/04/2026 11:24:52",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100134369": {
+      "display": "202100134369",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T15:21:18",
+      "controlDateText": "21/04/2026 15:21:18",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20210013742": {
+      "display": "20210013742",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T15:22:05",
+      "controlDateText": "21/04/2026 15:22:05",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004607": {
+      "display": "202300004607",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:10:31",
+      "controlDateText": "21/04/2026 18:10:31",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100138064": {
+      "display": "202100138064",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:13:02",
+      "controlDateText": "21/04/2026 18:13:02",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001450": {
+      "display": "202200001450",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:13:36",
+      "controlDateText": "21/04/2026 18:13:36",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135638": {
+      "display": "202100135638",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:14:03",
+      "controlDateText": "21/04/2026 18:14:03",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137581": {
+      "display": "202100137581",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:15:38",
+      "controlDateText": "21/04/2026 18:15:38",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20210013325": {
+      "display": "20210013325",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:17:46",
+      "controlDateText": "21/04/2026 18:17:46",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004502": {
+      "display": "202300004502",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:18:30",
+      "controlDateText": "21/04/2026 18:18:30",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100134321": {
+      "display": "202100134321",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:18:59",
+      "controlDateText": "21/04/2026 18:18:59",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137568": {
+      "display": "202100137568",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:19:27",
+      "controlDateText": "21/04/2026 18:19:27",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001996": {
+      "display": "202200001996",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:21:53",
+      "controlDateText": "21/04/2026 18:21:53",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137379": {
+      "display": "202100137379",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:23:14",
+      "controlDateText": "21/04/2026 18:23:14",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001835": {
+      "display": "202200001835",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:18:35",
+      "controlDateText": "22/04/2026 09:18:35",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131555": {
+      "display": "202100131555",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:19:10",
+      "controlDateText": "22/04/2026 09:19:10",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132260": {
+      "display": "202100132260",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:19:37",
+      "controlDateText": "22/04/2026 09:19:37",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001828": {
+      "display": "202200001828",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:20:12",
+      "controlDateText": "22/04/2026 09:20:12",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003169": {
+      "display": "202300003169",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:20:41",
+      "controlDateText": "22/04/2026 09:20:41",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001698": {
+      "display": "202200001698",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:21:12",
+      "controlDateText": "22/04/2026 09:21:12",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100133353": {
+      "display": "202100133353",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:21:45",
+      "controlDateText": "22/04/2026 09:21:45",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137967": {
+      "display": "202100137967",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:28:01",
+      "controlDateText": "23/04/2026 17:28:01",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200002005": {
+      "display": "202200002005",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:28:51",
+      "controlDateText": "23/04/2026 17:28:51",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132093": {
+      "display": "202100132093",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:29:23",
+      "controlDateText": "23/04/2026 17:29:23",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135949": {
+      "display": "202100135949",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:29:55",
+      "controlDateText": "23/04/2026 17:29:55",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137964": {
+      "display": "202100137964",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:31:04",
+      "controlDateText": "23/04/2026 17:31:04",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131585": {
+      "display": "202100131585",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:32:09",
+      "controlDateText": "23/04/2026 17:32:09",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001834": {
+      "display": "202200001834",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:33:34",
+      "controlDateText": "23/04/2026 17:33:34",
+      "sheet": "Sheet1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2021000128930.0": {
+      "display": "2021000128930.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-19T14:13:02",
+      "controlDateText": "19/12/2025 14:13:02",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20220014082.0": {
+      "display": "20220014082.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-19T14:14:52",
+      "controlDateText": "19/12/2025 14:14:52",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137962.0": {
+      "display": "202100137962.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-19T15:54:48",
+      "controlDateText": "19/12/2025 15:54:48",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100133330.0": {
+      "display": "202100133330.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T15:48:44",
+      "controlDateText": "22/12/2025 15:48:44",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137560.0": {
+      "display": "202100137560.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:08:52",
+      "controlDateText": "22/12/2025 16:08:52",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001422.0": {
+      "display": "202200001422.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:10:21",
+      "controlDateText": "22/12/2025 16:10:21",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135645.0": {
+      "display": "202100135645.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:11:15",
+      "controlDateText": "22/12/2025 16:11:15",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003172.0": {
+      "display": "202300003172.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:12:08",
+      "controlDateText": "22/12/2025 16:12:08",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137512.0": {
+      "display": "202100137512.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:15:08",
+      "controlDateText": "22/12/2025 16:15:08",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132134.0": {
+      "display": "202100132134.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:18:09",
+      "controlDateText": "22/12/2025 16:18:09",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004506.0": {
+      "display": "202300004506.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:18:56",
+      "controlDateText": "22/12/2025 16:18:56",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004508.0": {
+      "display": "202300004508.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:24:23",
+      "controlDateText": "22/12/2025 16:24:23",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001417.0": {
+      "display": "202200001417.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:26:16",
+      "controlDateText": "22/12/2025 16:26:16",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004491.0": {
+      "display": "202300004491.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:27:04",
+      "controlDateText": "22/12/2025 16:27:04",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001664.0": {
+      "display": "202200001664.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:27:58",
+      "controlDateText": "22/12/2025 16:27:58",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004832.0": {
+      "display": "202300004832.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:28:39",
+      "controlDateText": "22/12/2025 16:28:39",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001652.0": {
+      "display": "202200001652.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:29:23",
+      "controlDateText": "22/12/2025 16:29:23",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001655.0": {
+      "display": "202200001655.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:30:17",
+      "controlDateText": "22/12/2025 16:30:17",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001984.0": {
+      "display": "202200001984.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:30:29",
+      "controlDateText": "23/04/2026 17:30:29",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132119.0": {
+      "display": "202100132119.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:31:50",
+      "controlDateText": "22/12/2025 16:31:50",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202500000905.0": {
+      "display": "202500000905.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:32:48",
+      "controlDateText": "22/12/2025 16:32:48",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202500000907.0": {
+      "display": "202500000907.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:33:42",
+      "controlDateText": "22/12/2025 16:33:42",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2022000142177.0": {
+      "display": "2022000142177.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2025-12-22T16:34:35",
+      "controlDateText": "22/12/2025 16:34:35",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137758.0": {
+      "display": "202100137758.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:37:09",
+      "controlDateText": "05/01/2026 14:37:09",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001839.0": {
+      "display": "202200001839.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:34:31",
+      "controlDateText": "23/04/2026 17:34:31",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001435.0": {
+      "display": "202200001435.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:38:36",
+      "controlDateText": "05/01/2026 14:38:36",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202500000906.0": {
+      "display": "202500000906.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:39:21",
+      "controlDateText": "05/01/2026 14:39:21",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100136310.0": {
+      "display": "202100136310.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:39:58",
+      "controlDateText": "05/01/2026 14:39:58",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001415.0": {
+      "display": "202200001415.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:40:40",
+      "controlDateText": "05/01/2026 14:40:40",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135621.0": {
+      "display": "202100135621.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:41:22",
+      "controlDateText": "05/01/2026 14:41:22",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001985.0": {
+      "display": "202200001985.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:41:59",
+      "controlDateText": "05/01/2026 14:41:59",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132120.0": {
+      "display": "202100132120.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:42:45",
+      "controlDateText": "05/01/2026 14:42:45",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004494.0": {
+      "display": "202300004494.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-05T14:43:20",
+      "controlDateText": "05/01/2026 14:43:20",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003047.0": {
+      "display": "202300003047.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-09T14:56:16",
+      "controlDateText": "09/01/2026 14:56:16",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200142082.0": {
+      "display": "202200142082.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-09T15:00:04",
+      "controlDateText": "09/01/2026 15:00:04",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100138101.0": {
+      "display": "202100138101.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:26:43",
+      "controlDateText": "23/04/2026 17:26:43",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003042.0": {
+      "display": "202300003042.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T10:59:53",
+      "controlDateText": "12/01/2026 10:59:53",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100133342.0": {
+      "display": "202100133342.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T11:27:11",
+      "controlDateText": "12/01/2026 11:27:11",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001810.0": {
+      "display": "202200001810.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T12:23:54",
+      "controlDateText": "12/01/2026 12:23:54",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20210013345.0": {
+      "display": "20210013345.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T12:33:44",
+      "controlDateText": "12/01/2026 12:33:44",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2021000127751.0": {
+      "display": "2021000127751.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T13:43:26",
+      "controlDateText": "12/01/2026 13:43:26",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004495.0": {
+      "display": "202300004495.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T13:44:15",
+      "controlDateText": "12/01/2026 13:44:15",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2023000004587.0": {
+      "display": "2023000004587.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T13:44:55",
+      "controlDateText": "12/01/2026 13:44:55",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004141.0": {
+      "display": "202300004141.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T13:46:47",
+      "controlDateText": "12/01/2026 13:46:47",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137527.0": {
+      "display": "202100137527.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T14:08:30",
+      "controlDateText": "12/01/2026 14:08:30",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100129753.0": {
+      "display": "202100129753.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T14:42:01",
+      "controlDateText": "12/01/2026 14:42:01",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2019000061948.0": {
+      "display": "2019000061948.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T14:43:03",
+      "controlDateText": "12/01/2026 14:43:03",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004499.0": {
+      "display": "202300004499.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:32:39",
+      "controlDateText": "23/04/2026 17:32:39",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004509.0": {
+      "display": "202300004509.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T14:59:55",
+      "controlDateText": "12/01/2026 14:59:55",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001412.0": {
+      "display": "202200001412.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-12T15:43:16",
+      "controlDateText": "12/01/2026 15:43:16",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137586.0": {
+      "display": "202100137586.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-13T12:12:39",
+      "controlDateText": "13/01/2026 12:12:39",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001995.0": {
+      "display": "202200001995.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T10:24:04",
+      "controlDateText": "14/01/2026 10:24:04",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137516.0": {
+      "display": "202100137516.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T11:46:31",
+      "controlDateText": "14/01/2026 11:46:31",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004608.0": {
+      "display": "202300004608.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T11:48:16",
+      "controlDateText": "14/01/2026 11:48:16",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137756.0": {
+      "display": "202100137756.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T11:49:48",
+      "controlDateText": "14/01/2026 11:49:48",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100138080.0": {
+      "display": "202100138080.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-14T13:48:43",
+      "controlDateText": "14/01/2026 13:48:43",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001837.0": {
+      "display": "202200001837.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-21T11:03:17",
+      "controlDateText": "21/01/2026 11:03:17",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001573.0": {
+      "display": "202200001573.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-21T11:05:56",
+      "controlDateText": "21/01/2026 11:05:56",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001444.0": {
+      "display": "202200001444.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T08:36:37",
+      "controlDateText": "22/01/2026 08:36:37",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001851.0": {
+      "display": "202200001851.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T08:38:43",
+      "controlDateText": "22/01/2026 08:38:43",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001447.0": {
+      "display": "202200001447.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T08:39:46",
+      "controlDateText": "22/01/2026 08:39:46",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004496.0": {
+      "display": "202300004496.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T08:54:09",
+      "controlDateText": "22/01/2026 08:54:09",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131986.0": {
+      "display": "202100131986.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-22T09:15:42",
+      "controlDateText": "22/01/2026 09:15:42",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2019000077837.0": {
+      "display": "2019000077837.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-26T12:08:43",
+      "controlDateText": "26/01/2026 12:08:43",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001999.0": {
+      "display": "202200001999.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:20:45",
+      "controlDateText": "28/01/2026 09:20:45",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137387.0": {
+      "display": "202100137387.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:21:36",
+      "controlDateText": "28/01/2026 09:21:36",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001824.0": {
+      "display": "202200001824.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:22:27",
+      "controlDateText": "28/01/2026 09:22:27",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001821.0": {
+      "display": "202200001821.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:23:41",
+      "controlDateText": "28/01/2026 09:23:41",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004612.0": {
+      "display": "202300004612.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:24:50",
+      "controlDateText": "28/01/2026 09:24:50",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004589.0": {
+      "display": "202300004589.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:25:50",
+      "controlDateText": "28/01/2026 09:25:50",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131300.0": {
+      "display": "202100131300.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:26:51",
+      "controlDateText": "28/01/2026 09:26:51",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001433.0": {
+      "display": "202200001433.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:27:50",
+      "controlDateText": "28/01/2026 09:27:50",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2022000142172.0": {
+      "display": "2022000142172.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:28:43",
+      "controlDateText": "28/01/2026 09:28:43",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137777.0": {
+      "display": "202100137777.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:29:40",
+      "controlDateText": "28/01/2026 09:29:40",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001423.0": {
+      "display": "202200001423.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:30:47",
+      "controlDateText": "28/01/2026 09:30:47",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137392.0": {
+      "display": "202100137392.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:31:24",
+      "controlDateText": "28/01/2026 09:31:24",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100129758.0": {
+      "display": "202100129758.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:31:59",
+      "controlDateText": "28/01/2026 09:31:59",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100129830.0": {
+      "display": "202100129830.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:32:39",
+      "controlDateText": "28/01/2026 09:32:39",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2021001129741.0": {
+      "display": "2021001129741.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-28T09:33:15",
+      "controlDateText": "28/01/2026 09:33:15",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100134328.0": {
+      "display": "202100134328.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-29T14:12:33",
+      "controlDateText": "29/01/2026 14:12:33",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135948.0": {
+      "display": "202100135948.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-29T14:14:16",
+      "controlDateText": "29/01/2026 14:14:16",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131575.0": {
+      "display": "202100131575.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T11:12:41",
+      "controlDateText": "30/01/2026 11:12:41",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004603.0": {
+      "display": "202300004603.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T12:23:42",
+      "controlDateText": "30/01/2026 12:23:42",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137497.0": {
+      "display": "202100137497.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:52:16",
+      "controlDateText": "30/01/2026 14:52:16",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001689.0": {
+      "display": "202200001689.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:53:51",
+      "controlDateText": "30/01/2026 14:53:51",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2021000128913.0": {
+      "display": "2021000128913.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:54:43",
+      "controlDateText": "30/01/2026 14:54:43",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004492.0": {
+      "display": "202300004492.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:55:36",
+      "controlDateText": "30/01/2026 14:55:36",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001671.0": {
+      "display": "202200001671.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:56:24",
+      "controlDateText": "30/01/2026 14:56:24",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131574.0": {
+      "display": "202100131574.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:57:18",
+      "controlDateText": "30/01/2026 14:57:18",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001695.0": {
+      "display": "202200001695.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:31:37",
+      "controlDateText": "23/04/2026 17:31:37",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004590.0": {
+      "display": "202300004590.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:59:12",
+      "controlDateText": "30/01/2026 14:59:12",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001659.0": {
+      "display": "202200001659.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T14:59:58",
+      "controlDateText": "30/01/2026 14:59:58",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003168.0": {
+      "display": "202300003168.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-01-30T15:00:39",
+      "controlDateText": "30/01/2026 15:00:39",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001843.0": {
+      "display": "202200001843.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:33:05",
+      "controlDateText": "23/04/2026 17:33:05",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135927.0": {
+      "display": "202100135927.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:34:03",
+      "controlDateText": "23/04/2026 17:34:03",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2019000077845.0": {
+      "display": "2019000077845.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-02T14:04:36",
+      "controlDateText": "02/02/2026 14:04:36",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131979.0": {
+      "display": "202100131979.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T15:50:32",
+      "controlDateText": "06/02/2026 15:50:32",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20211318.0": {
+      "display": "20211318.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:03:34",
+      "controlDateText": "06/02/2026 16:03:34",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131566.0": {
+      "display": "202100131566.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:04:12",
+      "controlDateText": "06/02/2026 16:04:12",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004505.0": {
+      "display": "202300004505.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:05:18",
+      "controlDateText": "06/02/2026 16:05:18",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135518.0": {
+      "display": "202100135518.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:05:50",
+      "controlDateText": "06/02/2026 16:05:50",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137518.0": {
+      "display": "202100137518.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:06:23",
+      "controlDateText": "06/02/2026 16:06:23",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137776.0": {
+      "display": "202100137776.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:07:07",
+      "controlDateText": "06/02/2026 16:07:07",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001419.0": {
+      "display": "202200001419.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:07:44",
+      "controlDateText": "06/02/2026 16:07:44",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137788.0": {
+      "display": "202100137788.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-06T16:08:20",
+      "controlDateText": "06/02/2026 16:08:20",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004504.0": {
+      "display": "202300004504.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T10:59:10",
+      "controlDateText": "09/02/2026 10:59:10",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137571.0": {
+      "display": "202100137571.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:00:40",
+      "controlDateText": "09/02/2026 11:00:40",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001683.0": {
+      "display": "202200001683.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:01:23",
+      "controlDateText": "09/02/2026 11:01:23",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001430.0": {
+      "display": "202200001430.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:01:54",
+      "controlDateText": "09/02/2026 11:01:54",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004500.0": {
+      "display": "202300004500.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:02:30",
+      "controlDateText": "09/02/2026 11:02:30",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100138078.0": {
+      "display": "202100138078.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:03:00",
+      "controlDateText": "09/02/2026 11:03:00",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137584.0": {
+      "display": "202100137584.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:06:00",
+      "controlDateText": "09/02/2026 11:06:00",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132270.0": {
+      "display": "202100132270.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:27:21",
+      "controlDateText": "23/04/2026 17:27:21",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001693.0": {
+      "display": "202200001693.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:07:17",
+      "controlDateText": "09/02/2026 11:07:17",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "2019000078547.0": {
+      "display": "2019000078547.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:07:52",
+      "controlDateText": "09/02/2026 11:07:52",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003985.0": {
+      "display": "202300003985.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-09T11:15:28",
+      "controlDateText": "09/02/2026 11:15:28",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200142177.0": {
+      "display": "202200142177.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-02-17T10:29:39",
+      "controlDateText": "17/02/2026 10:29:39",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100129754.0": {
+      "display": "202100129754.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:37:25",
+      "controlDateText": "09/03/2026 15:37:25",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003043.0": {
+      "display": "202300003043.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:38:11",
+      "controlDateText": "09/03/2026 15:38:11",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202400015697.0": {
+      "display": "202400015697.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:38:55",
+      "controlDateText": "09/03/2026 15:38:55",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001832.0": {
+      "display": "202200001832.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:39:32",
+      "controlDateText": "09/03/2026 15:39:32",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132125.0": {
+      "display": "202100132125.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:40:03",
+      "controlDateText": "09/03/2026 15:40:03",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300005305.0": {
+      "display": "202300005305.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:40:40",
+      "controlDateText": "09/03/2026 15:40:40",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001816.0": {
+      "display": "202200001816.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-09T15:41:21",
+      "controlDateText": "09/03/2026 15:41:21",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200142171.0": {
+      "display": "202200142171.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-23T14:47:00",
+      "controlDateText": "23/03/2026 14:47:00",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001685.0": {
+      "display": "202200001685.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-03-23T14:47:32",
+      "controlDateText": "23/03/2026 14:47:32",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004588.0": {
+      "display": "202300004588.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-15T11:24:19",
+      "controlDateText": "15/04/2026 11:24:19",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001431.0": {
+      "display": "202200001431.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-15T11:24:52",
+      "controlDateText": "15/04/2026 11:24:52",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100134369.0": {
+      "display": "202100134369.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T15:21:18",
+      "controlDateText": "21/04/2026 15:21:18",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20210013742.0": {
+      "display": "20210013742.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T15:22:05",
+      "controlDateText": "21/04/2026 15:22:05",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004607.0": {
+      "display": "202300004607.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:10:31",
+      "controlDateText": "21/04/2026 18:10:31",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100138064.0": {
+      "display": "202100138064.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:13:02",
+      "controlDateText": "21/04/2026 18:13:02",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001450.0": {
+      "display": "202200001450.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:13:36",
+      "controlDateText": "21/04/2026 18:13:36",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135638.0": {
+      "display": "202100135638.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:14:03",
+      "controlDateText": "21/04/2026 18:14:03",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137581.0": {
+      "display": "202100137581.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:15:38",
+      "controlDateText": "21/04/2026 18:15:38",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "20210013325.0": {
+      "display": "20210013325.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:17:46",
+      "controlDateText": "21/04/2026 18:17:46",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300004502.0": {
+      "display": "202300004502.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:18:30",
+      "controlDateText": "21/04/2026 18:18:30",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100134321.0": {
+      "display": "202100134321.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:18:59",
+      "controlDateText": "21/04/2026 18:18:59",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137568.0": {
+      "display": "202100137568.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:19:27",
+      "controlDateText": "21/04/2026 18:19:27",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001996.0": {
+      "display": "202200001996.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:21:53",
+      "controlDateText": "21/04/2026 18:21:53",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137379.0": {
+      "display": "202100137379.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-21T18:23:14",
+      "controlDateText": "21/04/2026 18:23:14",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001835.0": {
+      "display": "202200001835.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:18:35",
+      "controlDateText": "22/04/2026 09:18:35",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131555.0": {
+      "display": "202100131555.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:19:10",
+      "controlDateText": "22/04/2026 09:19:10",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132260.0": {
+      "display": "202100132260.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:19:37",
+      "controlDateText": "22/04/2026 09:19:37",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001828.0": {
+      "display": "202200001828.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:20:12",
+      "controlDateText": "22/04/2026 09:20:12",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202300003169.0": {
+      "display": "202300003169.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:20:41",
+      "controlDateText": "22/04/2026 09:20:41",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001698.0": {
+      "display": "202200001698.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:21:12",
+      "controlDateText": "22/04/2026 09:21:12",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100133353.0": {
+      "display": "202100133353.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-22T09:21:45",
+      "controlDateText": "22/04/2026 09:21:45",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137967.0": {
+      "display": "202100137967.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:28:01",
+      "controlDateText": "23/04/2026 17:28:01",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200002005.0": {
+      "display": "202200002005.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:28:51",
+      "controlDateText": "23/04/2026 17:28:51",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100132093.0": {
+      "display": "202100132093.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:29:23",
+      "controlDateText": "23/04/2026 17:29:23",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100135949.0": {
+      "display": "202100135949.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:29:55",
+      "controlDateText": "23/04/2026 17:29:55",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100137964.0": {
+      "display": "202100137964.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:31:04",
+      "controlDateText": "23/04/2026 17:31:04",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202100131585.0": {
+      "display": "202100131585.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:32:09",
+      "controlDateText": "23/04/2026 17:32:09",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    },
+    "202200001834.0": {
+      "display": "202200001834.0",
+      "source": "BATTERIE",
+      "controlDateIso": "2026-04-23T17:33:34",
+      "controlDateText": "23/04/2026 17:33:34",
+      "sheet": "Feuil1",
+      "file": "TEST Batteries BJONG.xlsx"
+    }
+  }
+}
