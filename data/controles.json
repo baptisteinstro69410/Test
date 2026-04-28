@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-28T13:34:18Z",
-  "count": 316,
+  "generatedAt": "2026-04-28T13:59:35Z",
+  "count": 310,
   "items": {
     "2021000128930": {
       "display": "2021000128930",
@@ -1242,30 +1242,6 @@
       "sheet": "Sheet1",
       "file": "TEST Batteries BJONG.xlsx"
     },
-    "202100138077": {
-      "display": "202100138077",
-      "source": "BATTERIE",
-      "controlDateIso": "2026-04-27T17:40:22",
-      "controlDateText": "27/04/2026 17:40:22",
-      "sheet": "Sheet1",
-      "file": "TEST Batteries BJONG.xlsx"
-    },
-    "2021000127760": {
-      "display": "2021000127760",
-      "source": "BATTERIE",
-      "controlDateIso": "2026-04-27T17:41:36",
-      "controlDateText": "27/04/2026 17:41:36",
-      "sheet": "Sheet1",
-      "file": "TEST Batteries BJONG.xlsx"
-    },
-    "202300004498": {
-      "display": "202300004498",
-      "source": "BATTERIE",
-      "controlDateIso": "2026-04-27T17:42:09",
-      "controlDateText": "27/04/2026 17:42:09",
-      "sheet": "Sheet1",
-      "file": "TEST Batteries BJONG.xlsx"
-    },
     "2021000128930.0": {
       "display": "2021000128930.0",
       "source": "BATTERIE",
@@ -2503,30 +2479,6 @@
       "source": "BATTERIE",
       "controlDateIso": "2026-04-23T17:33:34",
       "controlDateText": "23/04/2026 17:33:34",
-      "sheet": "Feuil1",
-      "file": "TEST Batteries BJONG.xlsx"
-    },
-    "202100138077.0": {
-      "display": "202100138077.0",
-      "source": "BATTERIE",
-      "controlDateIso": "2026-04-27T17:40:22",
-      "controlDateText": "27/04/2026 17:40:22",
-      "sheet": "Feuil1",
-      "file": "TEST Batteries BJONG.xlsx"
-    },
-    "2021000127760.0": {
-      "display": "2021000127760.0",
-      "source": "BATTERIE",
-      "controlDateIso": "2026-04-27T17:41:36",
-      "controlDateText": "27/04/2026 17:41:36",
-      "sheet": "Feuil1",
-      "file": "TEST Batteries BJONG.xlsx"
-    },
-    "202300004498.0": {
-      "display": "202300004498.0",
-      "source": "BATTERIE",
-      "controlDateIso": "2026-04-27T17:42:09",
-      "controlDateText": "27/04/2026 17:42:09",
       "sheet": "Feuil1",
       "file": "TEST Batteries BJONG.xlsx"
     }
