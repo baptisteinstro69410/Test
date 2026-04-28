@@ -1,0 +1,39 @@
+name: Build controles.json
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'sources/**'
+      - 'generate_controles_json.py'
+      - '.github/workflows/build-controles-json.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl xlrd
+
+      - name: Build controles.json
+        run: python generate_controles_json.py
+
+      - name: Commit updated JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update data/controles.json'
+          file_pattern: data/controles.json
