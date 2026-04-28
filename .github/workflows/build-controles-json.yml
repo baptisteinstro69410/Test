@@ -47,4 +47,3 @@ jobs:
             git commit -m "chore: update data/controles.json"
             git push
           fi
-``
