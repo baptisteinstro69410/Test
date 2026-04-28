@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <title>Contrôle périodique - Référentiel auto GitHub</title>
+  <style>
+    :root {
+      --bg: #0b1220; --card: rgba(17,24,39,.92); --line: rgba(148,163,184,.18);
+      --text: #f8fafc; --muted: #cbd5e1; --accent: #38bdf8; --ok: #22c55e; --ko: #ef4444; --warn: #f59e0b;
+      --shadow: 0 14px 34px rgba(0,0,0,.28); --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; background:linear-gradient(180deg,#09101c 0%,#0b1220 100%); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
+    body { min-height:100vh; }
+    .wrap { max-width:1180px; margin:0 auto; padding:max(14px, env(safe-area-inset-top)) 14px calc(16px + env(safe-area-inset-bottom)); }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:14px; margin-bottom:14px; backdrop-filter:blur(8px); }
+    .title { margin:0 0 6px; font-size:1.45rem; font-weight:800; line-height:1.2; }
+    .subtitle { margin:0; color:var(--muted); line-height:1.45; font-size:.96rem; }
+    .pillbar { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+    .pill { padding:6px 10px; border-radius:999px; border:1px solid rgba(56,189,248,.16); background:rgba(56,189,248,.1); color:#bae6fd; font-size:.82rem; font-weight:700; }
+    .grid,.btnrow,.btnrow2,.stats,.history-list,.topgrid { display:grid; gap:12px; }
+    .grid { grid-template-columns:1.05fr .95fr; }
+    .topgrid { grid-template-columns:1fr 1fr; }
+    .btnrow { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    .btnrow2 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .stats { grid-template-columns:repeat(4,minmax(0,1fr)); }
+    @media (max-width:960px){ .grid,.topgrid { grid-template-columns:1fr; } }
+    @media (max-width:760px){ .btnrow,.btnrow2,.stats { grid-template-columns:1fr; } }
+    .tile,.stat,.history-item { border-radius:16px; border:1px solid var(--line); background:rgba(15,23,42,.86); padding:12px; }
+    label { display:block; margin-bottom:8px; font-size:.92rem; font-weight:700; }
+    input[type='text'] { width:100%; border-radius:14px; border:1px solid var(--line); background:rgba(15,23,42,.86); color:var(--text); padding:14px; font-size:16px; min-height:50px; }
+    .input-row { display:grid; grid-template-columns:1fr auto; gap:10px; }
+    @media (max-width:520px){ .input-row { grid-template-columns:1fr; } }
+    button { min-height:50px; border:0; border-radius:14px; font-size:.98rem; font-weight:760; cursor:pointer; padding:13px 12px; }
+    button:disabled { opacity:.55; cursor:not-allowed; }
+    .btn-primary { background:linear-gradient(180deg,#38bdf8 0%,#0ea5e9 100%); color:#082f49; }
+    .btn-secondary { background:#334155; color:#f8fafc; }
+    .btn-success { background:linear-gradient(180deg,#4ade80 0%,#22c55e 100%); color:#052e16; }
+    .btn-danger { background:linear-gradient(180deg,#f87171 0%,#ef4444 100%); color:#450a0a; }
+    .btn-neutral { background:#1e293b; color:#e2e8f0; }
+    .btn-ras { background:linear-gradient(180deg,#e2e8f0 0%,#cbd5e1 100%); color:#0f172a; }
+    .btn-torch { background:linear-gradient(180deg,#fbbf24 0%,#f59e0b 100%); color:#422006; }
+    .small { color:var(--muted); font-size:.9rem; line-height:1.4; }
+    .video-wrap { position:relative; overflow:hidden; border-radius:16px; border:1px solid var(--line); background:#000; aspect-ratio:3/4; }
+    #scanner, #scanner video { width:100%; height:100%; display:block; object-fit:cover; background:#000; }
+    #scanner canvas, #scanner video { position:absolute; inset:0; }
+    .guide { position:absolute; inset:0; pointer-events:none; }
+    .guide::before { content:''; position:absolute; left:5%; right:5%; top:43%; height:14%; border-radius:14px; border:3px solid rgba(56,189,248,.96); box-shadow:0 0 0 9999px rgba(0,0,0,.18) inset; }
+    .guide::after { content:'Place le code dans la bande bleue, bien horizontal'; position:absolute; left:0; right:0; top:60%; text-align:center; color:#e2e8f0; font-size:.92rem; font-weight:700; text-shadow:0 2px 8px rgba(0,0,0,.7); padding:0 10px; }
+    .status { margin-top:12px; min-height:44px; display:flex; align-items:center; gap:10px; border-radius:14px; border:1px solid var(--line); background:rgba(15,23,42,.86); padding:10px 12px; color:var(--muted); line-height:1.35; }
+    .dot { width:10px; height:10px; border-radius:999px; background:var(--warn); flex:0 0 auto; }
+    .status.ok .dot { background:var(--ok); } .status.ko .dot { background:var(--ko); } .status.scan .dot { background:var(--accent); animation:pulse 1.1s infinite; }
+    @keyframes pulse { 0%{transform:scale(1);opacity:1;} 50%{transform:scale(1.35);opacity:.65;} 100%{transform:scale(1);opacity:1;} }
+    .tag { display:inline-flex; align-items:center; gap:6px; border-radius:999px; border:1px solid var(--line); padding:5px 9px; font-size:.78rem; font-weight:700; background:rgba(15,23,42,.72); color:var(--text); }
+    .tag.ok { background:rgba(34,197,94,.14); color:#bbf7d0; } .tag.neutral { color:#cbd5e1; }
+    .k { font-size:.78rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin-bottom:4px; }
+    .v { font-size:1.6rem; font-weight:800; }
+    .history-item { display:grid; grid-template-columns:1fr 1fr .9fr .9fr 1fr auto; gap:10px; }
+    .history-item.ok { background:rgba(34,197,94,.14); } .history-item.ko { background:rgba(239,68,68,.16); }
+    @media (max-width:980px){ .history-item { grid-template-columns:1fr; } }
+    .empty { border-radius:16px; border:1px dashed rgba(148,163,184,.25); background:rgba(15,23,42,.62); color:var(--muted); padding:24px; text-align:center; margin-top:12px; }
+    .overlay { position:fixed; inset:0; z-index:999; display:none; align-items:center; justify-content:center; text-align:center; padding:24px; pointer-events:none; }
+    .overlay.show { display:flex; } .overlay.ok { background:rgba(34,197,94,.80); } .overlay.ko { background:rgba(239,68,68,.84); }
+    .overlay-box { max-width:860px; color:white; text-shadow:0 4px 12px rgba(0,0,0,.4); width:100%; }
+    .overlay-title { font-size:clamp(3rem,10vw,7rem); font-weight:900; line-height:1; margin:0 0 10px; }
+    .overlay-sub { font-size:clamp(1rem,2.6vw,1.6rem); font-weight:700; margin:0; }
+    .overlay-sn { font-size:clamp(1.2rem,3vw,2rem); font-weight:800; margin-top:10px; word-break:break-all; }
+    .overlay-comment-wrap { margin:18px auto 0; max-width:720px; text-align:left; pointer-events:auto; }
+    .overlay-comment-label { display:block; margin-bottom:8px; font-size:.95rem; font-weight:800; color:white; }
+    .overlay-comment { width:100%; min-height:56px; border-radius:16px; border:0; padding:14px 16px; font-size:16px; background:rgba(255,255,255,.96); color:#0f172a; box-shadow:0 10px 26px rgba(0,0,0,.18); }
+    .overlay-actions { margin-top:18px; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; pointer-events:auto; }
+    .overlay button { box-shadow:0 8px 18px rgba(0,0,0,.22); }
+    @media (max-width:700px){ .overlay-actions { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <div id="resultOverlay" class="overlay" aria-hidden="true">
+    <div class="overlay-box">
+      <div id="overlayTitle" class="overlay-title">PRÊT</div>
+      <p id="overlaySub" class="overlay-sub">Le résultat du dernier scan reste affiché jusqu'au prochain scan.</p>
+      <div id="overlaySN" class="overlay-sn"></div>
+      <div class="overlay-comment-wrap">
+        <label for="overlayCommentInput" class="overlay-comment-label">Commentaire rapide</label>
+        <input id="overlayCommentInput" class="overlay-comment" type="text" placeholder="Ajouter un commentaire pour ce SN" />
+      </div>
+      <div class="overlay-actions">
+        <button id="overlayNextBtn" class="btn-primary">Scanner suivant</button>
+        <button id="overlayRasBtn" class="btn-ras">RAS</button>
+        <button id="overlayUndoBtn" class="btn-neutral">Annuler ce scan</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="card">
+      <h1 class="title">Contrôle périodique - Référentiel auto GitHub</h1>
+      <p class="subtitle">Cette version charge automatiquement <strong>./data/controles.json</strong> au démarrage. Aucun chargement manuel de fichier n'est nécessaire.</p>
+      <div class="pillbar">
+        <span class="pill">Auto-load JSON GitHub</span>
+        <span class="pill">Code 128</span>
+        <span class="pill">Seuil personnalisable</span>
+        <span class="pill">CSV enrichi</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="topgrid">
+        <div class="tile">
+          <label>Référentiel GitHub</label>
+          <div class="small">URL chargée : <code id="jsonUrlText">./data/controles.json</code></div>
+          <div class="small" style="margin-top:8px;">Dernière mise à jour JSON : <strong id="generatedAtText">—</strong></div>
+          <div class="small">Feuilles / fichiers consolidés : <strong id="countSourceText">—</strong></div>
+        </div>
+        <div class="tile">
+          <label for="controlThresholdInput">Seuil validité contrôle (jours)</label>
+          <div class="input-row">
+            <input id="controlThresholdInput" type="text" inputmode="numeric" value="300" placeholder="Ex. 300" />
+            <button id="btnApplyThreshold" class="btn-secondary">Appliquer</button>
+          </div>
+          <div class="btnrow2" style="margin-top:12px;">
+            <button id="btnReloadJson" class="btn-primary">Recharger référentiel GitHub</button>
+            <button id="btnClearRefs" class="btn-neutral">Vider références</button>
+          </div>
+        </div>
+      </div>
+      <div class="pillbar">
+        <span id="tagRefs" class="tag neutral">Référentiel non chargé</span>
+        <span class="tag neutral">SN connus : <strong id="knownCount" style="margin-left:4px;">0</strong></span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="title" style="font-size:1.15rem;">Informations d'export</h2>
+      <div class="topgrid" style="margin-top:12px;">
+        <div class="tile">
+          <label for="clientNameInput">Client</label>
+          <input id="clientNameInput" type="text" placeholder="Nom du client" />
+        </div>
+        <div class="tile">
+          <label for="receiptNameInput">Bon de réception</label>
+          <input id="receiptNameInput" type="text" placeholder="Ex. BR-2026-041" />
+        </div>
+      </div>
+      <div class="small" style="margin-top:10px;">Nom généré : <strong id="exportNamePreview">retours_location_YYYY-MM-DD.csv</strong></div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="video-wrap"><div id="scanner"></div><div class="guide"></div></div>
+        <div id="status" class="status"><span class="dot"></span><span id="statusText">Prêt. Le référentiel GitHub va être chargé automatiquement.</span></div>
+        <div class="btnrow">
+          <button id="btnStart" class="btn-primary">Autoriser & scanner</button>
+          <button id="btnStop" class="btn-secondary" disabled>Arrêter</button>
+          <button id="btnTorch" class="btn-torch" disabled>Torche</button>
+        </div>
+        <div class="btnrow2">
+          <button id="btnNext" class="btn-secondary">Scanner suivant</button>
+          <button id="btnUndoLast" class="btn-neutral">Annuler dernier scan</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="field">
+          <label for="barcodeInput">Barcode</label>
+          <div class="input-row">
+            <input id="barcodeInput" type="text" autocomplete="off" spellcheck="false" placeholder="Scanner ou saisir le SN" />
+            <button id="btnValidateManual" class="btn-success">Valider manuel</button>
+          </div>
+        </div>
+        <div class="field">
+          <label for="notesInput">Notes</label>
+          <div class="input-row">
+            <input id="notesInput" type="text" placeholder="Commentaire sur le SN scanné" />
+            <button id="btnRasMain" class="btn-ras">RAS</button>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="k">Total scans</div><div id="countTotal" class="v">0</div></div>
+          <div class="stat"><div class="k">OK</div><div id="countOK" class="v">0</div></div>
+          <div class="stat"><div class="k">À contrôler</div><div id="countKO" class="v">0</div></div>
+          <div class="stat"><div class="k">Prêt export</div><div id="countExport" class="v">0</div></div>
+        </div>
+        <div class="btnrow2">
+          <button id="btnExport" class="btn-secondary">Exporter CSV</button>
+          <button id="btnShare" class="btn-secondary">Partager</button>
+        </div>
+        <div class="btnrow2">
+          <button id="btnFlush" class="btn-danger">Flush base scannée</button>
+          <button id="btnSoftClearRefs" class="btn-neutral">Décharger référentiel</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="input-row" style="grid-template-columns:1fr 280px; align-items:center;">
+        <div>
+          <h2 class="title" style="font-size:1.15rem; margin-bottom:4px;">Archivage des scans</h2>
+          <p class="subtitle">Archive complète avec date de contrôle, âge du contrôle et motif.</p>
+        </div>
+        <input id="searchInput" type="text" placeholder="Rechercher SN, motif, date..." />
+      </div>
+      <div id="historyList" class="history-list"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/@ericblade/quagga2@1.8.4/dist/quagga.min.js"></script>
+  <script>
+    const STORAGE_SCANNED = 'controle_github_scanned_v1';
+    const STORAGE_META = 'controle_github_meta_v1';
+    const JSON_URL = './data/controles.json';
+
+    const scannerEl = document.getElementById('scanner');
+    const statusEl = document.getElementById('status');
+    const statusTextEl = document.getElementById('statusText');
+    const btnStart = document.getElementById('btnStart');
+    const btnStop = document.getElementById('btnStop');
+    const btnTorch = document.getElementById('btnTorch');
+    const btnNext = document.getElementById('btnNext');
+    const btnUndoLast = document.getElementById('btnUndoLast');
+    const btnValidateManual = document.getElementById('btnValidateManual');
+    const btnExport = document.getElementById('btnExport');
+    const btnShare = document.getElementById('btnShare');
+    const btnFlush = document.getElementById('btnFlush');
+    const btnClearRefs = document.getElementById('btnClearRefs');
+    const btnSoftClearRefs = document.getElementById('btnSoftClearRefs');
+    const btnReloadJson = document.getElementById('btnReloadJson');
+    const btnRasMain = document.getElementById('btnRasMain');
+    const btnApplyThreshold = document.getElementById('btnApplyThreshold');
+    const overlayNextBtn = document.getElementById('overlayNextBtn');
+    const overlayUndoBtn = document.getElementById('overlayUndoBtn');
+    const overlayRasBtn = document.getElementById('overlayRasBtn');
+    const overlayCommentInput = document.getElementById('overlayCommentInput');
+    const barcodeInput = document.getElementById('barcodeInput');
+    const notesInput = document.getElementById('notesInput');
+    const tagRefs = document.getElementById('tagRefs');
+    const knownCountEl = document.getElementById('knownCount');
+    const countTotalEl = document.getElementById('countTotal');
+    const countOKEl = document.getElementById('countOK');
+    const countKOEl = document.getElementById('countKO');
+    const countExportEl = document.getElementById('countExport');
+    const historyListEl = document.getElementById('historyList');
+    const searchInput = document.getElementById('searchInput');
+    const overlayEl = document.getElementById('resultOverlay');
+    const overlayTitleEl = document.getElementById('overlayTitle');
+    const overlaySubEl = document.getElementById('overlaySub');
+    const overlaySNEl = document.getElementById('overlaySN');
+    const clientNameInput = document.getElementById('clientNameInput');
+    const receiptNameInput = document.getElementById('receiptNameInput');
+    const exportNamePreview = document.getElementById('exportNamePreview');
+    const controlThresholdInput = document.getElementById('controlThresholdInput');
+    const generatedAtText = document.getElementById('generatedAtText');
+    const countSourceText = document.getElementById('countSourceText');
+    const jsonUrlText = document.getElementById('jsonUrlText');
+
+    let knownMap = new Map();
+    let scanned = loadScanned();
+    let refsLoaded = false;
+    let permissionPrimed = false;
+    let engineLoaded = false;
+    let activePrimeStream = null;
+    let started = false;
+    let onDetectedHandler = null;
+    let onProcessedHandler = null;
+    let torchEnabled = false;
+    let torchCapable = false;
+    let lastDetected = '';
+    let lastDetectedAt = 0;
+    let audioCtx = null;
+    let controlThresholdDays = 300;
+    let generatedAt = '';
+
+    function normalize(v){ return String(v||'').trim().toUpperCase().replace(/\s+/g,''); }
+    function canonicalSN(v){ return normalize(v).replace(/^V(?=.+)/,''); }
+    function displaySN(v){ return normalize(v); }
+    function escapeHtml(v){ return String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;'); }
+    function escapeCsv(v){ return '"' + String(v ?? '').replace(/"/g,'""') + '"'; }
+    function parseControlDate(value){ if (!value) return null; const d = new Date(value); return Number.isNaN(d.getTime()) ? null : d; }
+    function formatControlDate(date){ return (!(date instanceof Date) || Number.isNaN(date.getTime())) ? '' : date.toLocaleString('fr-FR'); }
+    function getControlAgeDays(date){ return (!(date instanceof Date) || Number.isNaN(date.getTime())) ? null : Math.floor((Date.now()-date.getTime())/86400000); }
+    function buildControlAssessment(ref){
+      if (!ref) return { status:'A CONTRÔLER', motif:'SN inconnu dans le référentiel', controlDateText:'', controlAgeDays:null, source:'INCONNU' };
+      if (!ref.controlDate) return { status:'A CONTRÔLER', motif:'Date de contrôle absente', controlDateText:ref.controlDateText||'', controlAgeDays:null, source:ref.source||'INCONNU' };
+      const age = getControlAgeDays(ref.controlDate);
+      if (age === null) return { status:'A CONTRÔLER', motif:'Date de contrôle invalide', controlDateText:ref.controlDateText||'', controlAgeDays:null, source:ref.source||'INCONNU' };
+      if (age > controlThresholdDays) return { status:'A CONTRÔLER', motif:'Contrôle expiré ('+age+' jours > '+controlThresholdDays+')', controlDateText:ref.controlDateText || formatControlDate(ref.controlDate), controlAgeDays:age, source:ref.source||'INCONNU' };
+      return { status:'OK', motif:'Contrôle valide ('+age+' jours ≤ '+controlThresholdDays+')', controlDateText:ref.controlDateText || formatControlDate(ref.controlDate), controlAgeDays:age, source:ref.source||'INCONNU' };
+    }
+    function buildOverlaySub(entry){ if(!entry) return 'Le résultat reste affiché jusqu’au prochain scan.'; const p=[]; if(entry.source) p.push('Source : '+entry.source); if(entry.controlDateText) p.push('Dernier contrôle : '+entry.controlDateText); if(entry.controlAgeDays !== null && entry.controlAgeDays !== undefined) p.push('Âge : '+entry.controlAgeDays+' jours'); if(entry.motif) p.push(entry.motif); if(entry.notes) p.push('Note : '+entry.notes); return p.join(' • ') || 'Le résultat reste affiché jusqu’au prochain scan.'; }
+    function loadMeta(){ try { const raw = localStorage.getItem(STORAGE_META); const obj = raw ? JSON.parse(raw) : {}; return { client:String(obj.client||''), receipt:String(obj.receipt||'') }; } catch { return { client:'', receipt:'' }; } }
+    function saveMeta(){ localStorage.setItem(STORAGE_META, JSON.stringify({ client:clientNameInput.value.trim(), receipt:receiptNameInput.value.trim() })); updateExportNamePreview(); }
+    function slugifyName(v){ return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9_-]+/g,'_').replace(/^_+|_+$/g,'').replace(/_+/g,'_'); }
+    function buildExportFileName(){ const date = new Date().toISOString().slice(0,10); const client = slugifyName(clientNameInput.value.trim()); const receipt = slugifyName(receiptNameInput.value.trim()); const parts=['retours_location']; if(client) parts.push(client); if(receipt) parts.push(receipt); parts.push(date); return parts.join('_') + '.csv'; }
+    function updateExportNamePreview(){ exportNamePreview.textContent = buildExportFileName(); }
+    function loadScanned(){ try { const raw = localStorage.getItem(STORAGE_SCANNED); const arr = raw ? JSON.parse(raw) : []; return Array.isArray(arr) ? arr : []; } catch { return []; } }
+    function saveScanned(){ localStorage.setItem(STORAGE_SCANNED, JSON.stringify(scanned)); }
+    function setStatus(text, mode='idle'){ statusEl.className='status'; if(mode==='scan') statusEl.classList.add('scan'); if(mode==='ok') statusEl.classList.add('ok'); if(mode==='ko') statusEl.classList.add('ko'); statusTextEl.textContent=text; }
+    function playBeep(type='ok'){ try { const Ctx = window.AudioContext || window.webkitAudioContext; if(!Ctx) return; if(!audioCtx) audioCtx = new Ctx(); if(audioCtx.state==='suspended') audioCtx.resume(); const b=(f,o,d)=>{ const osc=audioCtx.createOscillator(); const gain=audioCtx.createGain(); osc.type='sine'; osc.frequency.value=f; const t0=audioCtx.currentTime+o; gain.gain.setValueAtTime(0.0001,t0); gain.gain.exponentialRampToValueAtTime(0.18,t0+0.01); gain.gain.exponentialRampToValueAtTime(0.0001,t0+d); osc.connect(gain); gain.connect(audioCtx.destination); osc.start(t0); osc.stop(t0+d+0.02); }; if(type==='ok') b(1046,0,0.16); else { b(740,0,0.12); b(740,0.18,0.12);} } catch(_){} }
+    function getLastEntry(){ return scanned.length ? scanned[0] : null; }
+    function syncOverlayComment(){ const last = getLastEntry(); overlayCommentInput.value = last ? (last.notes || '') : ''; overlayCommentInput.disabled = !last; }
+    function setOverlay(state, entry=null){ overlayEl.className='overlay show '+(state==='ok'?'ok':'ko'); overlayTitleEl.textContent = state==='ok' ? 'OK' : 'A CONTRÔLER'; overlaySubEl.textContent = buildOverlaySub(entry); overlaySNEl.textContent = entry ? entry.sn : ''; syncOverlayComment(); setTimeout(()=>{ if(overlayEl.classList.contains('show')) overlayCommentInput.focus(); },50); }
+    function clearOverlay(){ overlayEl.className='overlay'; overlayTitleEl.textContent='PRÊT'; overlaySubEl.textContent='Le résultat du dernier scan reste affiché jusqu\'au prochain scan.'; overlaySNEl.textContent=''; overlayCommentInput.value=''; }
+    function updateSourceTags(){ tagRefs.className = 'tag ' + (refsLoaded ? 'ok' : 'neutral'); tagRefs.textContent = refsLoaded ? 'Référentiel chargé' : 'Référentiel non chargé'; knownCountEl.textContent = String(knownMap.size); generatedAtText.textContent = generatedAt || '—'; countSourceText.textContent = knownMap.size ? (knownMap.size + ' SN consolidés') : '—'; jsonUrlText.textContent = JSON_URL; }
+    function updateCounters(){ const ok=scanned.filter(x=>x.status==='OK').length; const ko=scanned.filter(x=>x.status==='A CONTRÔLER').length; countTotalEl.textContent=String(scanned.length); countOKEl.textContent=String(ok); countKOEl.textContent=String(ko); countExportEl.textContent=String(scanned.length); btnExport.disabled=scanned.length===0; btnShare.disabled=scanned.length===0; btnFlush.disabled=scanned.length===0; btnUndoLast.disabled=scanned.length===0; overlayUndoBtn.disabled=scanned.length===0; syncOverlayComment(); }
+    function renderHistory(){ const q=searchInput.value.trim().toLowerCase(); const filtered=!q?scanned:scanned.filter(r=>[r.sn,r.realScanned,r.status,r.source,r.date,r.notes,r.controlDateText,r.controlAgeDays,r.motif].some(v=>String(v||'').toLowerCase().includes(q))); if(!filtered.length){ historyListEl.innerHTML='<div class="empty">Aucun scan archivé.</div>'; return; } historyListEl.innerHTML=filtered.map(r=>`<div class="history-item ${r.status==='OK'?'ok':'ko'}"><div><div class="k">SN référence</div><div style="font-weight:800; word-break:break-all;">${escapeHtml(r.sn)}</div><div class="small">${escapeHtml(r.date)}</div></div><div><div class="k">Barcode réel</div><div style="font-weight:700; word-break:break-all;">${escapeHtml(r.realScanned||r.scannedInput||'')}</div></div><div><div class="k">Statut</div><div>${escapeHtml(r.status)}</div><div class="small">${escapeHtml(r.motif||'')}</div></div><div><div class="k">Contrôle</div><div>${escapeHtml(r.controlDateText||'—')}</div><div class="small">${r.controlAgeDays!==null&&r.controlAgeDays!==undefined?escapeHtml(r.controlAgeDays+' jours'):'—'}</div></div><div><div class="k">Source</div><div>${escapeHtml(r.source)}</div><div class="small">Seuil : ${escapeHtml(r.thresholdDays||controlThresholdDays)} j</div></div><div><div class="k">Notes</div><input type="text" data-note-id="${r.id}" value="${escapeHtml(r.notes||'')}" placeholder="Ajouter une note" /></div><div style="display:flex; align-items:center; justify-content:flex-end; gap:8px;"><button class="btn-neutral" data-delete-id="${r.id}" style="min-height:42px; padding:10px 12px;">Annuler</button></div></div>`).join(''); historyListEl.querySelectorAll('[data-delete-id]').forEach(btn=>btn.addEventListener('click',()=>{ const id=btn.getAttribute('data-delete-id'); scanned=scanned.filter(x=>String(x.id)!==String(id)); saveScanned(); updateCounters(); renderHistory(); setStatus('Scan supprimé.','ok'); })); historyListEl.querySelectorAll('[data-note-id]').forEach(input=>input.addEventListener('change',()=>{ const id=input.getAttribute('data-note-id'); const row=scanned.find(x=>String(x.id)===String(id)); if(row){ row.notes=input.value.trim(); saveScanned(); if(overlayEl.classList.contains('show') && getLastEntry() && getLastEntry().id===row.id) overlaySubEl.textContent=buildOverlaySub(row);} })); }
+
+    async function loadRefsFromJson(forceNoCache=false){
+      try {
+        setStatus('Chargement du référentiel GitHub…', 'scan');
+        const url = forceNoCache ? (JSON_URL + '?t=' + Date.now()) : JSON_URL;
+        const response = await fetch(url, { cache: forceNoCache ? 'no-store' : 'default' });
+        if(!response.ok) throw new Error('HTTP ' + response.status);
+        const payload = await response.json();
+        const items = payload.items || {};
+        const map = new Map();
+        Object.entries(items).forEach(([key, rec]) => {
+          map.set(canonicalSN(key), {
+            source: String(rec.source || 'INCONNU'),
+            display: String(rec.display || key),
+            controlDate: rec.controlDateIso ? new Date(rec.controlDateIso) : null,
+            controlDateText: String(rec.controlDateText || '')
+          });
+        });
+        knownMap = map;
+        refsLoaded = true;
+        generatedAt = String(payload.generatedAt || '');
+        updateSourceTags();
+        setStatus('Référentiel GitHub chargé (' + map.size + ' SN).', 'ok');
+      } catch (error) {
+        console.error(error);
+        refsLoaded = false;
+        knownMap = new Map();
+        generatedAt = '';
+        updateSourceTags();
+        setStatus('Impossible de charger ./data/controles.json — ' + (error.message || error), 'ko');
+      }
+    }
+
+    function addEntry(snRaw, fromScan){ const scannedDisplay=displaySN(snRaw); const key=canonicalSN(snRaw); if(!key){ setStatus('SN vide.','ko'); return; } const ref=knownMap.get(key)||null; const assessment=buildControlAssessment(ref); const note=notesInput.value.trim(); const entry={ id:Date.now()+Math.random(), sn:ref?ref.display:scannedDisplay, realScanned:scannedDisplay, scannedInput:scannedDisplay, canonical:key, status:assessment.status, source:assessment.source, date:new Date().toLocaleString('fr-FR'), notes:note, controlDateText:assessment.controlDateText||'', controlAgeDays:assessment.controlAgeDays, motif:assessment.motif, thresholdDays:controlThresholdDays }; scanned.unshift(entry); saveScanned(); updateCounters(); renderHistory(); barcodeInput.value=''; notesInput.value=''; if(fromScan) playBeep(entry.status==='OK'?'ok':'ko'); setOverlay(entry.status==='OK'?'ok':'ko', entry); setStatus((fromScan?'Scan enregistré : ':'Saisie enregistrée : ')+entry.sn+' — '+entry.motif, entry.status==='OK'?'ok':'ko'); }
+    function updateLastScanComment(value){ const last=getLastEntry(); if(!last) return; last.notes=value.trim(); saveScanned(); renderHistory(); if(overlayEl.classList.contains('show')) overlaySubEl.textContent=buildOverlaySub(last); }
+    function applyRAS(target){ if(!target) return; target.value='RAS'; target.dispatchEvent(new Event('input',{bubbles:true})); target.dispatchEvent(new Event('change',{bubbles:true})); target.focus(); }
+    function undoLast(){ if(!scanned.length) return; scanned.shift(); saveScanned(); updateCounters(); renderHistory(); clearOverlay(); setStatus('Dernier scan annulé.','ok'); }
+    function flushScanned(){ scanned=[]; localStorage.removeItem(STORAGE_SCANNED); updateCounters(); renderHistory(); clearOverlay(); setStatus('Base scannée vidée.','ok'); }
+    function clearReferences(){ knownMap = new Map(); refsLoaded = false; generatedAt = ''; updateSourceTags(); clearOverlay(); setStatus('Référentiel déchargé.','ok'); }
+    function exportCsvBlob(){ const header=['SN référence','Barcode réel scanné','Saisi / scanné','Statut','Motif','Date contrôle','Âge contrôle (jours)','Seuil (jours)','Source','Date scan','Notes']; const rows=scanned.map(r=>[r.sn,r.realScanned||r.scannedInput||'',r.scannedInput||r.realScanned||'',r.status,r.motif||'',r.controlDateText||'',r.controlAgeDays!==null&&r.controlAgeDays!==undefined?r.controlAgeDays:'',r.thresholdDays||controlThresholdDays,r.source,r.date,r.notes].map(escapeCsv).join(';')); const content=[header.map(escapeCsv).join(';'),...rows].join('\n'); return new Blob(['\uFEFF'+content],{type:'text/csv;charset=utf-8'}); }
+    function exportCsv(){ if(!scanned.length) return; const blob=exportCsvBlob(); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=buildExportFileName(); document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),1000); setStatus('CSV exporté.','ok'); }
+    async function shareCsv(){ if(!scanned.length) return; const blob=exportCsvBlob(); const file=new File([blob],buildExportFileName(),{type:'text/csv;charset=utf-8'}); try{ if(navigator.share && navigator.canShare && navigator.canShare({files:[file]})){ await navigator.share({title:'Contrôle périodique', text:'Export des SN scannés', files:[file]}); setStatus('Partage lancé.','ok'); return; } } catch(_){} exportCsv(); }
+    function stopPrimeStream(){ try{ if(activePrimeStream && activePrimeStream.getTracks) activePrimeStream.getTracks().forEach(t=>t.stop()); } catch(_){} activePrimeStream=null; }
+    async function primeCameraPermission(){ if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error('API caméra non disponible sur ce navigateur.'); setStatus('Demande de permission caméra…','scan'); const stream=await navigator.mediaDevices.getUserMedia({ audio:false, video:{ facingMode:{ ideal:'environment' }, width:{ ideal:1280 }, height:{ ideal:720 }, frameRate:{ ideal:30, max:60 } } }); activePrimeStream=stream; const video=document.createElement('video'); video.muted=true; video.playsInline=true; video.srcObject=stream; await video.play().catch(()=>null); await new Promise(resolve=>setTimeout(resolve,180)); stopPrimeStream(); permissionPrimed=true; }
+    async function loadQuagga(){ if(engineLoaded && window.Quagga) return; await new Promise((resolve,reject)=>{ const existing=document.querySelector('script[data-quagga="1"]'); if(existing && window.Quagga){ engineLoaded=true; resolve(); return; } const script=existing||document.createElement('script'); if(!existing){ script.src='https://unpkg.com/@ericblade/quagga2@1.8.4/dist/quagga.min.js'; script.async=true; script.defer=true; script.dataset.quagga='1'; document.head.appendChild(script);} script.onload=()=>{ engineLoaded=true; resolve(); }; script.onerror=()=>reject(new Error('Impossible de charger Quagga2 (connexion Internet requise).')); }); }
+    function getActiveVideoTrack(){ const video=scannerEl.querySelector('video'); if(!video || !video.srcObject || !video.srcObject.getVideoTracks) return null; const tracks=video.srcObject.getVideoTracks(); return tracks && tracks.length ? tracks[0] : null; }
+    function syncTorchAvailability(attempt=0){ const track=getActiveVideoTrack(); if(!track){ if(attempt<12) setTimeout(()=>syncTorchAvailability(attempt+1),180); return; } let supported=false; try{ if(typeof track.getCapabilities==='function') supported=!!(track.getCapabilities()||{}).torch; }catch(_){} torchCapable=supported; if(!supported) torchEnabled=false; btnTorch.disabled=!started || !torchCapable; btnTorch.textContent=torchEnabled?'Torche ON':'Torche'; }
+    async function toggleTorch(){ const track=getActiveVideoTrack(); if(!track || !torchCapable){ setStatus('Torche non disponible.','ko'); return; } const next=!torchEnabled; try{ await track.applyConstraints({ advanced:[{ torch:next }] }); torchEnabled=next; btnTorch.textContent=torchEnabled?'Torche ON':'Torche'; } catch(e){ console.error(e); torchEnabled=false; btnTorch.textContent='Torche'; setStatus('Impossible d\'activer la torche.','ko'); } }
+    function stopScanner(){ try{ if(window.Quagga && onDetectedHandler) window.Quagga.offDetected(onDetectedHandler);}catch(_){} try{ if(window.Quagga && onProcessedHandler) window.Quagga.offProcessed(onProcessedHandler);}catch(_){} onDetectedHandler=null; onProcessedHandler=null; try{ if(window.Quagga && started) window.Quagga.stop(); }catch(_){} started=false; torchEnabled=false; torchCapable=false; btnStop.disabled=true; btnTorch.disabled=true; btnTorch.textContent='Torche'; const video=scannerEl.querySelector('video'); try{ if(video && video.srcObject && video.srcObject.getTracks) video.srcObject.getTracks().forEach(t=>t.stop()); }catch(_){} scannerEl.innerHTML=''; stopPrimeStream(); }
+    async function startScanner(){ clearOverlay(); if(started) return; if(!window.isSecureContext && location.hostname!=='localhost' && location.hostname!=='127.0.0.1'){ setStatus('La caméra exige HTTPS ou localhost.','ko'); return; } btnStart.disabled=true; try{ if(!permissionPrimed) await primeCameraPermission(); await loadQuagga(); setStatus('Scanner actif…','scan'); await new Promise((resolve,reject)=>{ window.Quagga.init({ inputStream:{ name:'Live', type:'LiveStream', target:scannerEl, constraints:{ facingMode:'environment', width:{ ideal:1280 }, height:{ ideal:720 }, aspectRatio:{ ideal:0.75 }, frameRate:{ ideal:30, max:60 } }, area:{ top:'43%', right:'5%', left:'5%', bottom:'43%' }, singleChannel:false }, locator:{ patchSize:'medium', halfSample:true }, numOfWorkers:2, frequency:20, locate:false, decoder:{ readers:['code_128_reader'], multiple:false } }, err=>err?reject(err):resolve()); }); onDetectedHandler=data=>{ const code=data && data.codeResult && data.codeResult.code ? String(data.codeResult.code).trim() : ''; if(!code) return; const now=Date.now(); const canonical=canonicalSN(code); if(canonical===lastDetected && (now-lastDetectedAt)<1200) return; lastDetected=canonical; lastDetectedAt=now; if(navigator.vibrate) navigator.vibrate(120); barcodeInput.value=displaySN(code); addEntry(code,true); stopScanner(); }; onProcessedHandler=()=>{ const overlay=scannerEl.querySelector('canvas.drawingBuffer'); if(overlay) overlay.style.opacity='0'; const video=scannerEl.querySelector('video'); if(video){ video.setAttribute('playsinline','true'); video.style.objectFit='cover'; } const track=video && video.srcObject && video.srcObject.getVideoTracks ? video.srcObject.getVideoTracks()[0] : null; if(track && typeof track.applyConstraints==='function') track.applyConstraints({ advanced:[{ focusMode:'continuous' }] }).catch(()=>{}); if(started && !torchCapable) syncTorchAvailability(); }; window.Quagga.onDetected(onDetectedHandler); window.Quagga.onProcessed(onProcessedHandler); window.Quagga.start(); started=true; btnStop.disabled=false; btnTorch.disabled=true; btnTorch.textContent='Torche'; syncTorchAvailability(); } catch(error){ console.error(error); stopScanner(); setStatus(error.message || 'Erreur de démarrage du scanner.','ko'); } finally { btnStart.disabled=false; } }
+    async function launchNextScan(){ clearOverlay(); await startScanner(); }
+
+    btnStart.addEventListener('click', startScanner); btnNext.addEventListener('click', launchNextScan); overlayNextBtn.addEventListener('click', launchNextScan); btnStop.addEventListener('click', ()=>{ stopScanner(); setStatus('Scan arrêté.','ok'); }); btnTorch.addEventListener('click', toggleTorch); btnValidateManual.addEventListener('click', ()=>{ clearOverlay(); addEntry(barcodeInput.value,false); }); btnRasMain.addEventListener('click', ()=>applyRAS(notesInput)); overlayRasBtn.addEventListener('click', ()=>applyRAS(overlayCommentInput)); btnApplyThreshold.addEventListener('click', ()=>{ controlThresholdDays=Math.max(1,parseInt(controlThresholdInput.value,10)||300); controlThresholdInput.value=String(controlThresholdDays); setStatus('Seuil contrôle appliqué : '+controlThresholdDays+' jours.','ok'); renderHistory(); }); controlThresholdInput.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); btnApplyThreshold.click(); } }); barcodeInput.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); clearOverlay(); addEntry(barcodeInput.value,false); } }); notesInput.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); clearOverlay(); addEntry(barcodeInput.value,false); } }); overlayCommentInput.addEventListener('input', ()=>{ updateLastScanComment(overlayCommentInput.value); }); overlayCommentInput.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); launchNextScan(); } }); btnUndoLast.addEventListener('click', undoLast); overlayUndoBtn.addEventListener('click', ()=>{ undoLast(); clearOverlay(); }); btnExport.addEventListener('click', exportCsv); btnShare.addEventListener('click', shareCsv); btnFlush.addEventListener('click', flushScanned); btnClearRefs.addEventListener('click', clearReferences); btnSoftClearRefs.addEventListener('click', clearReferences); btnReloadJson.addEventListener('click', ()=>loadRefsFromJson(true)); searchInput.addEventListener('input', renderHistory); clientNameInput.addEventListener('input', saveMeta); receiptNameInput.addEventListener('input', saveMeta); document.addEventListener('visibilitychange', ()=>{ if(document.hidden) stopScanner(); }); window.addEventListener('beforeunload', stopScanner);
+
+    const loadedMeta=loadMeta(); clientNameInput.value=loadedMeta.client; receiptNameInput.value=loadedMeta.receipt; updateExportNamePreview(); controlThresholdDays=Math.max(1,parseInt(controlThresholdInput.value,10)||300); updateSourceTags(); updateCounters(); renderHistory(); setStatus('Prêt. Chargement automatique du référentiel GitHub…','scan'); loadRefsFromJson(false);
+  </script>
+</body>
+</html>
