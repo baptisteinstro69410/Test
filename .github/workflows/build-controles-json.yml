@@ -1,5 +1,8 @@
 name: Build controles.json
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   push:
     branches: [ main ]
@@ -15,12 +18,13 @@ permissions:
 jobs:
   build-json:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -32,8 +36,15 @@ jobs:
       - name: Build controles.json
         run: python generate_controles_json.py
 
-      - name: Commit updated JSON
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update data/controles.json'
-          file_pattern: data/controles.json
+      - name: Commit updated JSON if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/controles.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement sur data/controles.json"
+          else
+            git commit -m "chore: update data/controles.json"
+            git push
+          fi
+``
